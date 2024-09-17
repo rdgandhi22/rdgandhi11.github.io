@@ -1,0 +1,5 @@
+---
+title: "EPPS 6302"
+---
+
+This site is used for my Methods of Data Collection and Production class.

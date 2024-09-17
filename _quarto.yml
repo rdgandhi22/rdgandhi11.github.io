@@ -1,0 +1,23 @@
+project:
+  type: website
+
+website:
+  title: "rdgandhi22.github.io"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - About .qmd
+      - EPPS 6302.qmd
+      - EPPS 6356.qmd
+      - href: Resume-3.pdf
+      - text: Resume
+
+format:
+  html:
+    theme: cosmo 
+    css: styles.css
+    toc: true
+
+editor: visual
+

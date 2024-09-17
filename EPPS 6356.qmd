@@ -1,0 +1,27 @@
+---
+title: "EPPS 6356"
+---
+
+This site is used for my Data Visualization class.
+
+### Assignment 1
+
+1\. Google "generative art". Cite some examples
+
+![](images/clipboard-2442742018.png)
+
+Manola Gamboa Naon, 2018. *bbccclll.* <https://www.artnome.com/news/2018/8/8/generative-art-finds-its-prodigy>
+
+![Manolo Gamboa Naon, 2018. *mantel.* \[[ext\]](https://www.artnome.com/news/2018/8/8/generative-art-finds-its-prodigy)](images/clipboard-1649425640.png)
+
+Manolo Gamboa Naon, 2018. *ppllnnn.*
+
+\![text\] (<https://images.squarespace-cdn.com/content/v1/59413d96e6f2e1c6837c7ecd/1534015107749-UCUXAR9GHN4PF7YOSZ7L/daf2fc66472289.5b17455677d71.png?format=1500w>)
+
+2\. Run Fall.R (on class Github under R)
+
+a\. Give your own colors (e.g. Winter)
+
+b\. Export the file and post on your GitHub website.
+
+3\. Write a critique on a chart in published work (book/article/news website).
