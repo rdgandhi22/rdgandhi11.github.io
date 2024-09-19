@@ -10,13 +10,16 @@ website:
       - About .qmd
       - EPPS 6302.qmd
       - EPPS 6356.qmd
-      - href: Resume-3.pdf
-      - text: Resume
+      - Resume.qmd
 
 format:
   html:
-    theme: cosmo 
-    css: styles.css
+    grid: 
+      sidebar-width: 300px
+      body-width: 650px
+      margin-width: 450px
+    theme: flatly 
+    css: custom.css
     toc: true
 
 editor: visual
