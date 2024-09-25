@@ -1,7 +1,0 @@
----
-title: "About"
----
-
-About this site
-
-I am using this site to show my projects, assignments, and accomplishments in my courses.
