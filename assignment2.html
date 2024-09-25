@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>EPPS 6356 – rdgandhi22.github.io</title>
+<title>hm2 – rdgandhi22.github.io</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -101,13 +135,28 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">EPPS 6302</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./EPPS 6356.html" aria-current="page"> 
+    <a class="nav-link" href="./EPPS 6356.html"> 
 <span class="menu-text">EPPS 6356</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./Resume.html"> 
 <span class="menu-text">Resume</span></a>
   </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-data-vis" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">data vis</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-data-vis">    
+        <li>
+    <a class="dropdown-item" href="./assignment2.html">
+ <span class="dropdown-text">assignemtn 2</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./assignemtn2.qmd">
+ <span class="dropdown-text">assignment 2</span></a>
+  </li>  
+    </ul>
+  </li>
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -119,23 +168,15 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#assignment-1" id="toc-assignment-1" class="nav-link active" data-scroll-target="#assignment-1">Assignment 1</a></li>
-  <li><a href="#assignment-2" id="toc-assignment-2" class="nav-link" data-scroll-target="#assignment-2">Assignment 2</a></li>
-  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">EPPS 6356</h1>
+<h1 class="title">hm2</h1>
 </div>
 
 
@@ -152,70 +193,13 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This site is used for my Data Visualization class.</p>
-<section id="assignment-1" class="level3">
-<h3 class="anchored" data-anchor-id="assignment-1">Assignment 1</h3>
-<p>1.Try Anscombe’s example’s</p>
-<p><img src="images/clipboard-4066982420.png" class="img-fluid"></p>
-<p><img src="images/clipboard-3871335567.png" class="img-fluid"></p>
-<p>2. Google “generative art”. Cite some examples</p>
-<p><img src="images/clipboard-2880624120.png" class="img-fluid" width="468"></p>
-<p>Manola Gamboa Naon, 2018. <em>bbccll.</em> <a href="https://www.artnome.com/news/2018/8/8/generative-art-finds-its-prodigy" class="uri">https://www.artnome.com/news/2018/8/8/generative-art-finds-its-prodigy</a> (September 9, 2018)</p>
-<p><img src="images/clipboard-1649425640.png" class="img-fluid" width="441"></p>
-<p>Manola Gamboa Naon, 2018. <em>mantel.</em> <a href="https://www.artnome.com/news/2018/8/8/generative-art-finds-its-prodigy" class="uri">https://www.artnome.com/news/2018/8/8/generative-art-finds-its-prodigy</a> (September 9, 2018)</p>
-<p><img src="images/clipboard-1309029520.png" class="img-fluid" width="455"></p>
-<p>Manola Gamboa Naon. 2018. <em>CUDA.</em> <a href="https://www.artnome.com/news/2018/8/8/generative-art-finds-its-prodigy" class="uri">https://www.artnome.com/news/2018/8/8/generative-art-finds-its-prodigy</a> (September 9, 2018)</p>
-<p>2. Run Fall.R (on class Github under R)</p>
-<p>a. Give your own colors (e.g.&nbsp;Salmon)</p>
-<p><img src="images/clipboard-879128548.png" class="img-fluid"></p>
-<p>b. Export the file and post on your GitHub website.</p>
-<p>3. Write a critique on a chart in published work (book/article/news website).</p>
-<p><img src="https://cdn-gdjgd.nitrocdn.com/puszgbaFBTTMTmzNUiCrRdNAekkabGtJ/assets/images/optimized/rev-791e652/policyviz.com/wp-content/uploads/2023/01/WaPo_vertical.png" class="img-fluid" alt="" width="538"></p>
-<p>PolicyViz. 2023. ‘A better path toward criticizing data visualization’. Retrieved from <a href="#0" style="font-size: 10pt;">https://policyviz.com/2023/02/01/a-better-path-toward-criticizing-data-visualization/</a></p>
-<p>The chart featured in the article “A Better Path Toward Criticizing Data Visualization” on PolicyViz showcases a comprehensive overview of the considerations when evaluating the visualizations of data. Essential criteria such as context, clarity, accuracy, and distinct dimensions are categorized in various aspects of visualizations that the chart does. For every category, there is a type of representation in key elements involved to present effective data presentation such as allowing viewers to quickly grasp that.</p>
-<p>Visualization underscores the importance of how it is communicated and the data itself. In presenting the interplay between different dimensions such as data integrity and visuals it serves as a tool to improve data graphics and critiques. The layout that is shown in a structured way invites viewers to consider the multifaceted nature of data visualization emphasizing that a visual that is strong must achieve informational accuracy and aesthetic appeal. While a chart effectively organizes critical elements there are also limitations such as a lack of importance of each dimension and does not quantify the weight which could guide users in prioritizing their critiques. In order to enhance understanding, examples of good versus poor visualization illustrate its points. The effectiveness of clarity can vary among audiences and contexts where the framework presented is subjective.</p>
-<p>Overall, this chart provides a valuable framework for encapsulating essential criteria in an accessible format and assessing data visualizations. Incorporating more detailed explanations and specific examples of the dimension’s significance could enhance fostering communication practices that are better an its utility.</p>
-</section>
-<section id="assignment-2" class="level3">
-<h3 class="anchored" data-anchor-id="assignment-2">Assignment 2</h3>
-<p>1.) Website: The Parable of Google Flu: Traps in Big Data Analysis</p>
-<p>Post a one-page note on your website on:</p>
-<p>i.Big analytics pitfall</p>
-<p>ii.Overfitting and overparametrization</p>
-<p>Big data analytics has revolutionized fields such as marketing, finance, and healthcare by extracting massive datasets. This type of power comes from overparametrization and overfitting which are pitfalls. There is a need to develop robust predictive models that can benefit and generalize unseen data well. Overfitting comes into play to train data and learn outliers and noise. With underlying patterns there typically is an off ratio between complex relative data to data that is available. An overfitted model performs poorly on test sets or validation, but excellently on training data that leads to accuracy metrics that are inflated and do not accurately reflect true predictive performance. In the context of predicting influenza outbreaks a model may fit great for historical data, but cannot predict future trends due to its reliance on noise patterns that result in misguided public health responses. Overparametrization refers that there are too many parameters in the model that can lead to overfitting which leads to a risk in capturing noise and not genuine signal. In a model with a hundred parameters, this might appear as beneficial when really it is complicating the model by increasing the chances of overfitting and making it harder to interpret. To combat these issues several strategies such as feature selection, regularization, ensemble selection, and cross validation can be employed. These technqiues perform well in existing data while also generalizing effectively.</p>
-<p>2.) Watch: Hadley Wickham: Data Visualization and Data Science (EMBL)</p>
-<p>Name the technologies/techniques Wickham introduced. What are his main points? Summarize and comment.</p>
-<p>In Hadley Wickham’s EMBL Keynote lecture on Data Visualization and Data Science, he discuesses key techniques and technologies that are essential for effective analysis and data visualization. In the package R there is a power of ggplot2 that utilizes a grammar of graphics to layer components enabling users to create visualizations step by step. Tidyverse was also introduced in the video where a collection of R packages that are designed for data science that share philosophy design featuring tidyr for data tidying and dplyr for data manipulation. Results, narrative in a single document, and combining code are the highlighted importance of RMarkdown. A web application framework called Shiny allows users to develop interactive web apps directly from enhancing data exploration and R scripts.</p>
-<p>Wickham outlines multiple data wrangling technqiues that are needed to prepare data for visualization and analysis stressing the necessity of well structured data that is clean. An emphasis of effective data visualization is vital for understanding communicating insights clearly and complex data. He advocates for gradually adding complexity to enhance clarity and starting with simple visualizations for a layered approach to visualization. Reproducibility is another theme that highlights the need for RMarkdown to show analyses can be shared and reproduced. Additionally, Shiny facilitates exploration and insight generation while engaging depply with data. Overall, the lecture promotes synergy between data science and data visualization and fostering practices of clear communication of results and effective analysis.</p>
-<p>3.) Create and publish a Quarto Blog</p>
-<p>4.) Run Paul Murrell’s RGraphics basic R program (murrell01.R)</p>
-<p>a. Be sure to run line by line and note the changes</p>
-<p>b. Pay attention to the comments and address the question if there is one</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/clipboard-1244857560.png" class="img-fluid figure-img" width="327"></p>
-<figcaption><img src="images/clipboard-383742268.png" class="img-fluid figure-img" width="674"></figcaption>
-</figure>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readxl)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co">#data = read.csv('HPI_2024_public_dataset.xlsx')</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co">#data$ISO</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-</section>
-<section id="section" class="level3">
-<h3 class="anchored" data-anchor-id="section"></h3>
-<p>i. plot(pressure, pch=16) # Can you change pch?</p>
-<p>Yes, you can change the pch. When altering the pch it changes the points on the plotline of the graph.</p>
-<p>ii. points (x, y1, pch=16, cex=3) # Try different cex value?</p>
-<p>When points get larger on the plot line this means that the cex value is getting larger as well. Therefore this means that the cex value changes the size of the points on the plot line.</p>
-<p>iii. axis(1, at=seq(0, 16, 4)) # What is the first number standing for?</p>
-<p>The first number standing is the x axis being generated on the chart. The x axis is labelled “Travel Time in seconds”. With the first number on the x axis being 0 this signifies the time in seconds beginning.</p>
-<p>iiii. Figures above:</p>
-<p>1. Pressure plot with the pch value changed from 16 to 15</p>
-<p>2. Travel scatterplot with cex value changed from 2 to 3 and background color change</p>
-<p>3. Histogram of Y</p>
-<p>4. Barplot</p>
-<p>5. Boxplot of Vitamin C dose (mg) on tooth growth/length</p>
-<p>6. Perspective plot</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
