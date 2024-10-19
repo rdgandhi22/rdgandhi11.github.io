@@ -125,10 +125,10 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#assignment-1" id="toc-assignment-1" class="nav-link active" data-scroll-target="#assignment-1">Assignment 1</a></li>
-  <li><a href="#tufte-edward.-2016.-the-future-of-data-analysis-review" id="toc-tufte-edward.-2016.-the-future-of-data-analysis-review" class="nav-link" data-scroll-target="#tufte-edward.-2016.-the-future-of-data-analysis-review">Tufte, Edward. 2016. <em>The Future of Data Analysis</em> review</a></li>
   <li><a href="#assignment-2" id="toc-assignment-2" class="nav-link" data-scroll-target="#assignment-2">Assignment 2</a></li>
   <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
   <li><a href="#assignment-3" id="toc-assignment-3" class="nav-link" data-scroll-target="#assignment-3">Assignment 3</a></li>
+  <li><a href="#assignment-5" id="toc-assignment-5" class="nav-link" data-scroll-target="#assignment-5">Assignment 5</a></li>
   </ul>
 </nav>
     </div>
@@ -178,22 +178,18 @@ ul.task-list li input[type="checkbox"] {
 <p>Visualization underscores the importance of how it is communicated and the data itself. In presenting the interplay between different dimensions such as data integrity and visuals it serves as a tool to improve data graphics and critiques. The layout that is shown in a structured way invites viewers to consider the multifaceted nature of data visualization emphasizing that a visual that is strong must achieve informational accuracy and aesthetic appeal. While a chart effectively organizes critical elements there are also limitations such as a lack of importance of each dimension and does not quantify the weight which could guide users in prioritizing their critiques. In order to enhance understanding, examples of good versus poor visualization illustrate its points. The effectiveness of clarity can vary among audiences and contexts where the framework presented is subjective.</p>
 <p>Overall, this chart provides a valuable framework for encapsulating essential criteria in an accessible format and assessing data visualizations. Incorporating more detailed explanations and specific examples of the dimension’s significance could enhance fostering communication practices that are better an its utility.</p>
 </section>
-<section id="tufte-edward.-2016.-the-future-of-data-analysis-review" class="level3">
-<h3 class="anchored" data-anchor-id="tufte-edward.-2016.-the-future-of-data-analysis-review">Tufte, Edward. 2016. <em>The Future of Data Analysis</em> review</h3>
-</section>
 <section id="assignment-2" class="level3">
 <h3 class="anchored" data-anchor-id="assignment-2">Assignment 2</h3>
-<p>1.) WeRsite: The Parable of Google Flu: Traps in Big Data Analysis</p>
+<p><strong>1.)</strong> Website: The Parable of Google Flu: Traps in Big Data Analysis</p>
 <p>Post a one-page note on your website on:</p>
 <p>i.Big analytics pitfall</p>
 <p>ii.Overfitting and overparametrization</p>
 <p>Big data analytics has revolutionized fields such as marketing, finance, and healthcare by extracting massive datasets. This type of power comes from overparametrization and overfitting which are pitfalls. There is a need to develop robust predictive models that can benefit and generalize unseen data well. Overfitting comes into play to train data and learn outliers and noise. With underlying patterns there typically is an off ratio between complex relative data to data that is available. An overfitted model performs poorly on test sets or validation, but excellently on training data that leads to accuracy metrics that are inflated and do not accurately reflect true predictive performance. In the context of predicting influenza outbreaks a model may fit great for historical data, but cannot predict future trends due to its reliance on noise patterns that result in misguided public health responses. Overparametrization refers that there are too many parameters in the model that can lead to overfitting which leads to a risk in capturing noise and not genuine signal. In a model with a hundred parameters, this might appear as beneficial when really it is complicating the model by increasing the chances of overfitting and making it harder to interpret. To combat these issues several strategies such as feature selection, regularization, ensemble selection, and cross validation can be employed. These technqiues perform well in existing data while also generalizing effectively.</p>
-<p>2.) Watch: Hadley Wickham: Data Visualization and Data Science (EMBL)</p>
+<p><strong>2.)</strong> Watch: Hadley Wickham: Data Visualization and Data Science (EMBL)</p>
 <p>Name the technologies/techniques Wickham introduced. What are his main points? Summarize and comment.</p>
 <p>In Hadley Wickham’s EMBL Keynote lecture on Data Visualization and Data Science, he discuesses key techniques and technologies that are essential for effective analysis and data visualization. In the package R there is a power of ggplot2 that utilizes a grammar of graphics to layer components enabling users to create visualizations step by step. Tidyverse was also introduced in the video where a collection of R packages that are designed for data science that share philosophy design featuring tidyr for data tidying and dplyr for data manipulation. Results, narrative in a single document, and combining code are the highlighted importance of RMarkdown. A web application framework called Shiny allows users to develop interactive web apps directly from enhancing data exploration and R scripts.</p>
 <p>Wickham outlines multiple data wrangling technqiues that are needed to prepare data for visualization and analysis stressing the necessity of well structured data that is clean. An emphasis of effective data visualization is vital for understanding communicating insights clearly and complex data. He advocates for gradually adding complexity to enhance clarity and starting with simple visualizations for a layered approach to visualization. Reproducibility is another theme that highlights the need for RMarkdown to show analyses can be shared and reproduced. Additionally, Shiny facilitates exploration and insight generation while engaging depply with data. Overall, the lecture promotes synergy between data science and data visualization and fostering practices of clear communication of results and effective analysis.</p>
-<p>3.) Create and publish a Quarto Blog</p>
-<p>4.) Run Paul Murrell’s RGraphics basic R program (murrell01.R)</p>
+<p><strong>3.)</strong> Run Paul Murrell’s RGraphics basic R program (murrell01.R)</p>
 <p>a. Be sure to run line by line and note the changes</p>
 <p>b. Pay attention to the comments and address the question if there is one</p>
 <div class="quarto-figure quarto-figure-center">
@@ -218,14 +214,40 @@ ul.task-list li input[type="checkbox"] {
 <p>4. Barplot</p>
 <p>5. Boxplot of Vitamin C dose (mg) on tooth growth/length</p>
 <p>6. Perspective plot</p>
+<p><strong>4.)</strong> Plotting functions using happy planet data set</p>
+<p><img src="images/clipboard-654867570.png" class="img-fluid" width="443"></p>
+<p><img src="images/clipboard-1119045709.png" class="img-fluid" width="444"></p>
 </section>
 <section id="assignment-3" class="level3">
 <h3 class="anchored" data-anchor-id="assignment-3">Assignment 3</h3>
 <p>1. Rerun murreli01. R</p>
 <p>a. Choose one 0f the six charts and explain how it is configured by adding documentation to the codes.</p>
+<p>Chart chosen: Boxplot example from murrell01.R code</p>
+<p>The ToothGrowth dataset in the boxplot examines the tooth length in guinea pigs from the effect of different doses of vitamin C. In order to plot the tooth length (len), the boxplot function is configured against the dose of vitmain C (dose) with the data filtered by each type of treatment (either orange juice or ascorbic acid) using the subset parameter. Boxwex parameter is controlled by the width of boxes while the x axis is specified with the at argument. ylim argument are set for y-axis to ensure all data is visible. Enablement of a direct comparison of two treatments is done by the second boxplot that overlays orange juice group into existing plot by using “add=true”. Additionally,</p>
 <p>2. Rerun anscombe01.R (in Teams folder)</p>
 <p>a. Compare the regression models</p>
+<p><img src="images/clipboard-2855606777.png" class="img-fluid"></p>
+<p>Figure 1: Regression plot of X1 and Y1</p>
+<p>For data analysis and data visualization a regression plot is appropriate where the plot lines generally fit the regression line. The R^2 value may be really small since the plot points are very spaces out. The regression line doesn’t do the best job to fit the plot points.</p>
+<p><img src="images/clipboard-3906506096.png" class="img-fluid"></p>
+<p>Figure 2: Regression plot of X2 and Y2</p>
+<p>In the figure above, it is shown that the regression plot is most likely not the best tool for data analysis. A parabolic function resembles the plot points therefore a supplementary analysis tool may be required</p>
+<p><img src="images/clipboard-4253292137.png" class="img-fluid"></p>
+<p>Figure 3: Regression plot X3 and Y3</p>
+<p>This figure is similar to figure 1 in the sense that for data analysis and visualization the regression plot is appropriate. With the exception of one outlier the points generally fir the regression line.</p>
+<p><img src="images/clipboard-3956325453.png" class="img-fluid"></p>
+<p>Figure 4: Regression plot of X4 and Y4</p>
+<p>Similarly to figure 2 this plot doesn’t demonstrate to be the best tool for data analysis. Due to all the points being clustered at x=8 except for one this calls for a different analysis tool.</p>
 <p>b. Compare different ways to create the plots (e.g.&nbsp;changing colors, line types, plot characters)</p>
+<p><img src="images/clipboard-3037239310.png" class="img-fluid" width="295"></p>
+<p>“plot for a loop” code was used to generate the charts above. The code was able to add design components such as color, plot point size, and shape.</p>
+<p>3. Can you finetune the charts without using other packages (consult RGraphics by Murrell)</p>
+<p>This finetuned version displays regression plots for Y1-Y4 and X1-X4 using RGraphics by Murrell. There is a difference in size and color which helps the visual to be easier on the eye and able to see the plot points easier with having enough distance in between them.</p>
+<p><img src="images/clipboard-1867205952.png" class="img-fluid"></p>
+<p>4. How about with ggplot2? (use tidyverse package)</p>
+</section>
+<section id="assignment-5" class="level3">
+<h3 class="anchored" data-anchor-id="assignment-5">Assignment 5</h3>
 
 
 </section>
